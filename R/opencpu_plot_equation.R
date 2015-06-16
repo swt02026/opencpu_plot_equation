@@ -1,4 +1,5 @@
 draw<-function(input,min_input,max_input,step_input){
+  install.packages("ggplot2")                   )
   library(ggplot2)
   
   min = eval(
