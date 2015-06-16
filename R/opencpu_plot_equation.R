@@ -1,6 +1,5 @@
-library(ggplot2)
-
 draw<-function(input,min_input,max_input,step_input){
+  library(ggplot2)
   
   min = eval(
     expr = parse(
