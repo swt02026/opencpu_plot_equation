@@ -27,6 +27,6 @@ draw<-function(input,min_input,max_input,step_input){
   
   df = data.frame(x = as.vector(x),y = as.vector(y))
   
-  p<-ggplot(data=df,aes(x=x,y=y)) + geom_line(colour="green",size = 1)+ geom_point()
+  p<-ggplot(data=df,aes(x=x,y=y)) + geom_line(colour="green",size = 1)+theme(text = element_text(size = 20)) + geom_point()
   p
 }
